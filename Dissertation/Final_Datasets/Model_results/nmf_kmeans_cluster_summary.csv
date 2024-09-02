@@ -1,0 +1,9 @@
+Cluster,Phenotype Name,Number of Patients,Top Topics,Mean Age,Min Age,Max Age,Female Percentage,Male Percentage,Most Common ICD9,Patient Count
+0,Chronic Cardiopulmonary and Renal Disorders,3533,"[1, 6, 10]",85.33314464,17,308,43.61732239,56.38267761,51881,3533
+1,Cardiovascular and Gastrointestinal Conditions,2720,"[0, 12, 9]",70.68161765,25,306,24.96323529,75.03676471,41401,2720
+2,Infectious Diseases and Oncological Conditions,18052,"[10, 8, 9]",70.19039442,0,310,45.49080434,54.50919566,389,18052
+3,Neurological and Hemorrhagic Conditions,801,"[11, 5, 10]",84.05742821,17,305,35.70536829,64.29463171,85221,801
+4,Cerebrovascular and Infectious Disorders,1017,"[5, 11, 10]",73.79941003,17,306,48.96755162,51.03244838,431,1017
+5,Cardiovascular and Pulmonary Disorders,2033,"[4, 0, 6]",74.26512543,21,309,41.41662568,58.58337432,4241,2033
+6,Renal and Infectious Conditions,1059,"[7, 1, 10]",91.77431539,17,309,60.05665722,39.94334278,389,1059
+7,Cardiac and Gastrointestinal Conditions,1633,"[3, 9, 0]",77.47887324,23,309,36.80342927,63.19657073,41071,1633
