@@ -2,8 +2,10 @@
 BM7: Computational phenotyping patients using multimodal EHRs
 1. INTRODUCTION
 This guide provides step-by-step instructions to reproduce the computational phenotyping pipeline, which involves data preparation, modelling, and evaluation of electronic health records (EHRs) from the MIMIC-III dataset. The project integrates both structured and unstructured data to identify clinically meaningful disease phenotypes using various machine learning and deep learning algorithms.
+![image](https://github.com/user-attachments/assets/c3caee26-2b9d-47d7-b966-06bf14af270a)
 
-2. SYSTEM REQUIREMENTS
+
+3. SYSTEM REQUIREMENTS
 1.	Operating System: Windows 10 or later, macOS, or Linux
 2.	Python Version: 3.10.12
 3.	Required Packages:  Listed in requirements.txt , Located in the root directory of the “BM7”repository.
@@ -103,7 +105,11 @@ Due to computational limitations, the intensive preprocessing including MESH kno
 Load pre-trained models from the ‘/BM7/Dissertation/ Saved_models/’.
 o	LDA + KMeans: lda_model.pkl
 o	NMF + KMeans: nmf _model.pkl
+![image](https://github.com/user-attachments/assets/827687ba-8480-4080-ba4b-bb45af879bbe)
+
 o	BERTopic + HDBSCAN: bertopic_ model.pkl
+![image](https://github.com/user-attachments/assets/97e1c48c-95a4-4ea1-a182-9f4f34d4d6d1)
+
 o	These models are used to perform computational phenotyping on the dataset. 
 4.	Evaluation:
 •	The 5_main_project_file.ipynb  has evaluation sections for each model and is easy to run with low resource usage.
